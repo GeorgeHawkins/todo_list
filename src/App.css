@@ -1,0 +1,130 @@
+:root {
+  --black : #555;
+  --Spearmint: #94C973;
+  --Seafoam: #2F5233;
+  --Kelly: #B1D8B7;
+  --Lime: #76B947;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: var(--Lime)
+}
+
+body {
+  line-height: 1.4;
+  background: var(--Lime);
+}
+
+.Main {
+  padding: 20px;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 700px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.TodoItem {
+  background: #f8f8f8;
+  padding: 10px;
+  margin: auto;
+  border-bottom: 1px var(--Lime) solid;
+  width: 95%;
+  display: flex;
+}
+
+.TodoFlexContainer {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.TodoStateContainer {
+  margin-left: auto;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.Checkbox {
+  margin: auto 10px auto 0px;
+  cursor: pointer;
+}
+
+.TodoTask {
+  padding: 0 5px;
+}
+
+.TodoState {
+  padding: 0 5px;
+}
+
+.TodoDue {
+  padding: 0 5px;
+}
+
+.DeleteButton {
+  background: var(--Seafoam);
+  color: #fff;
+  border: none;
+  padding: 4px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 12px;
+  
+}
+
+.AddForm {
+  margin: 5px 0;
+  
+}
+
+.TextInput {
+  border: 2px var(--Lime) solid;
+  width: 95%;
+  display: block;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px 0px 5px 5px;
+}
+
+.FormRow {
+   width: 95%;
+   margin: auto;
+}
+
+.DateInput {
+  border: 2px var(--Lime) solid;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px 0px 5px 5px;
+  width: 40%;
+}
+
+.TimeInput {
+  border: 2px var(--Lime) solid;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px 0px 5px 5px;
+  width: 25%;
+}
+
+.SubmitButton {
+  border: 2px var(--Lime) solid;
+  background: #fff;
+  color: var(--Lime);
+  font-weight: bold;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+}
+
